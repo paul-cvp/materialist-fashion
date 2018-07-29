@@ -1,4 +1,7 @@
 
+Challange details:
+https://www.kaggle.com/c/imaterialist-challenge-fashion-2018/
+
 Relevant classes:
     download - to download the images and save them to disc
     mf_dataset - to load the dataset
