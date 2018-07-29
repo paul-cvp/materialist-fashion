@@ -3,9 +3,13 @@ Relevant classes:
     download - to download the images and save them to disc
     mf_dataset - to load the dataset
     explore - look at images and their labels based on ID
-    sklearn_main - does all the work (image to feature vectors, training,
+    mf_trainer - does all the work (image to feature vectors, training,
     validation, evaluation)
     
+TODO:
+- add FTN network
+- use ImageAI object detection to preprocess images by selecting only persons where relevant
+- look into adaptive treshold selection for the network predictions.
 
 Current method:
 
