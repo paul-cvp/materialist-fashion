@@ -1,0 +1,6 @@
+
+Best val F1: 0.412395
+Best threshold: 0.025
+Training loss: 0.0485
+Val loss: 0.0768
+

@@ -5,7 +5,7 @@ from torch import nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torch.autograd import Variable
-from src.mf_dataset import MaterialistFashion, TestMaterialistFashion
+from mf_dataset import MaterialistFashion, TestMaterialistFashion
 from tqdm import tqdm
 import numpy as np
 from sklearn.metrics import fbeta_score

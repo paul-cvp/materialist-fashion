@@ -1,0 +1,5 @@
+on 9040 filtered images
+best val micro F1: 0.400774
+threshold: 0.02
+10 epochs
+training on last resnet FC layer + extra FC layer of input dims 1000 output dims 228

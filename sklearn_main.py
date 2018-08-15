@@ -4,7 +4,6 @@ from torchvision.models import resnet50
 from torchvision.transforms import Normalize, ToTensor, Resize, CenterCrop, RandomResizedCrop
 from torch.autograd import Variable
 
-import multiprocessing
 ## Utilities
 import random
 from timeit import default_timer as timer
@@ -16,7 +15,7 @@ from sklearn.externals import joblib
 from sklearn.preprocessing import MultiLabelBinarizer
 
 ##src
-from src.mf_dataset import MaterialistFashion, TestMaterialistFashion
+from mf_dataset import MaterialistFashion, TestMaterialistFashion
 
 ############################################################################
 ## Global Variables setup

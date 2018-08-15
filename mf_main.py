@@ -1,25 +1,18 @@
 import torch
 import torchvision
-from torch.autograd import Variable
-import torch.nn as nn
-import torch.nn.functional as F
 import torch.optim as optim
 from torchvision.transforms import Normalize, ToTensor, Resize, CenterCrop, RandomResizedCrop
-import matplotlib.pyplot as plt
 import numpy as np
 
 
 ## Utilities
 import random
-import time
 from timeit import default_timer as timer
 import os
-import copy
-from tqdm import tqdm
 
 ##src
 from src.mf_models import ResNet50
-from src.mf_dataset import MaterialistFashion,TestMaterialistFashion
+from mf_dataset import MaterialistFashion,TestMaterialistFashion
 from src.mf_train import train, snapshot
 from src.mf_validate import validate
 from src.mf_predict import predict, output
