@@ -9,10 +9,10 @@ Relevant classes:
     mf_trainer - does all the work (image to feature vectors, training,
     validation, evaluation)
     
-TODO:
-- add FTN network
-- use ImageAI object detection to preprocess images by selecting only persons where relevant
-- look into adaptive treshold selection for the network predictions.
+New features:
+- added FTN network
+- used ImageAI object detection to preprocess images by selecting only persons where relevant
+- looked into adaptive treshold selection for the network predictions.
 
 Current method:
 
